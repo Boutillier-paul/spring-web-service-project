@@ -13,6 +13,10 @@ Le code source du serveur se situe dans le dossier /src/main/java du projet.
 Le code source du client se situe dans le dossier /src/main/react-app du projet.
 
 # installation
+Afin de lancer la BDD, veuillez vous situer dans le dossier ou se trouve le fichier hsqldb.jar et lancer la commande :
+java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 chatapp
+
+
 Afin de pouvoir utiliser l'application il vous faudra télécharger les dépendances du serveur listées dans le fichier pom.xml, grâce à Maven
 
 Il vous faudra aussi utiliser la commande 
